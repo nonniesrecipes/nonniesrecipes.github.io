@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custard Recipe</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section#recipe-detail {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        section#recipe-detail h2 {
+            color: #ff6347;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .img-container {
+            background-color: #ff6347;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+
+        }
+
+        .img-container img {
+            display: block;
+            margin: 0 auto;
+            height: 400px;
+        }
+
+        section#recipe-detail h4 {
+            color: #ff6347;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+         margin-top: 20px;
+            margin-left: 30px;
+
+
+        }
+
+        .ingredients-container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+
+        .ingredients-container img {
+            max-width: 300px;
+            margin-left: 150px;
+            border-radius: 8px;
+            margin-bottom: -200px;
+
+        }
+
+        .ingredients-container ul {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        section#recipe-detail ul, section#recipe-detail ol {
+            margin-left: 60px;
+
+
+        }
+
+        section#recipe-detail ul li, section#recipe-detail ol li {
+            margin-bottom: 5px;
+        }
+
+        section#recipe-detail ul li {
+                list-style-type: none;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Nonnie's Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#recipes">Recipes</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="recipe-detail">
+        <h2>Rugelach</h2>
+        <div class="ingredients-container">
+            <div>
+                <h4>Ingredients:</h4>
+                <ul>
+                    <li><input type = "checkbox"> 1 cup sweet butter</li>
+                    <li><input type = "checkbox"> 1/2 lb. cream cheese (Philadelphia)</li>
+                    <li><input type = "checkbox"> 2 cups flour</li>
+                    <li><input type = "checkbox"> Cinnamon sugar</li>
+                    <li><input type = "checkbox"> Ground walnuts</li>
+                    <li><input type = "checkbox"> Golden Raisins</li>
+                    <li><input type = "checkbox"> Apricot jam and raspberry jam</li>
+                </ul>
+            </div>
+            <img src="rugelach.jpg" alt="Custard">
+        </div>
+        <h4>Instructions:</h4>
+        <ol>
+            <li>&nbspBlend butter, cream cheese, and flour together with your hands.</li>
+            <li>&nbspMix it well until you form a ball of dough.</li>
+            <li>&nbspDivide dough into 4 pieces and form each into a small ball.</li>
+            <li>&nbspWrap each piece in waxed paper and refrigerate overnight in a plastic bag.</li>
+            <li>&nbspPrepare shaker of cinnamon sugar.</li>
+            <li>&nbspPreheat oven to 375 F.</li>
+            <li>&nbspFlour counter and roll out each ball of dough to a round.</li>
+            <li>&nbspSprinkle generously with cinnamon sugar and ground walnuts.</li>
+            <li>&nbspCut into 12 pieces like a pie.</li>
+            <li>&nbspPlace a 1/2 teaspoon of jam on each wedge near the edge, and then add 2-3 raisins on each.</li>
+            <li>&nbspRoll each wedge towards the pointed ends. Turn corners to make a crescent.</li>
+            <li>&nbspPlace on a greased cookie sheet and sprinkle with cinnamon sugar.</li>
+            <li>&nbspBake for 25 minutes.</li>
+            <li>&nbspLet cool on a plate...do not leave them to cool on the cookie sheet.</li>
+        </ol>
+    </section>
+   
+    <footer>
+         <p>&copy; 2024 Nonnie's Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Nonnie's Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Nonnie's Recipes!</h2>
+        <p>For my senior initiative, I decided to follow some of my grandma's recipes that I ate growing up. Here are a few of the recipes.</p>
+    </section>
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-grid">
+            <a href="banana-cake.html" class="recipe-item">
+                <img src="banana-cake.jpg" alt="Banana Cake">
+                <h3>Banana Cake</h3>
+            </a>
+            <a href="custard.html" class="recipe-item">
+                <img src="custard.png" alt="Custard">
+                <h3>Custard</h3>
+            </a>
+            <a href="rugelach.html" class="recipe-item">
+                <img src="rugelach.jpg" alt="Rugelach">
+                <h3>Rugelach</h3>
+            </a>
+            <a href="coffeeCake.html" class="recipe-item">
+                <img src="coffee-cake.png" alt="Coffee Cake">
+                <h3>Aunt Blanche's Coffee Cake</h3>
+            </a>
+            <a href="noodle-kugel.html" class="recipe-item">
+                <img src="noodle-kugel.jpg" alt="Kugel">
+                <h3>Noodle Kugel</h3>
+            </a>
+            <a href="apple-kugel.html" class="recipe-item">
+                <img src="apple-kugel.jpg" alt="Apple kugel">
+                <h3>Apple Kugel</h3>
+            </a>
+            <a href="blintz-souffle.html" class="recipe-item">
+                <img src="blintz-souffle.jpg" alt="Blintz Souffle">
+                <h3>Blintz Souffle</h3>
+            </a>
+            <a href="cheesecake.html" class="recipe-item">
+                <img src="cheesecake.jpg" alt="Cheesecake">
+                <h3>Nancy Levin's Cheesecake</h3>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
